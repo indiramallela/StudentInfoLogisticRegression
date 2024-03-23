@@ -1,10 +1,7 @@
 
 library(dplyr)
 library(caret)
-# Load the dataset (assuming it's already loaded into a data frame named 'data')
-# Replace 'data' with the name of your dataset
-# Replace 'final_result' with the name of your target variable
-# Replace other column names accordingly
+
 data <- read.csv("/Users/indiramallela/Dropbox/Northwood/ML/ML course data download weekk1/studentInfo2.csv") # Replace "your_dataset.csv" with the path to your dataset
 
 # Data preprocessing
