@@ -22,10 +22,10 @@ train_index <- createDataPartition(data$final_result, p = 0.8, list = FALSE)
 train_data <- data[train_index, ]
 test_data <- data[-train_index, ]
 
-# Train the classification model (logistic regression)
+# Training the classification model (logistic regression) since there are only two outcomes withdrawn and not withdrawn
 model <- train(final_result ~ ., data = train_data, method = "glm", family = "binomial")
 
-# Make predictions on the test data
+# Makeing predictions on the test data
 predictions <- predict(model, newdata = test_data)
 
 # Evaluate the model
