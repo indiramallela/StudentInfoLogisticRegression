@@ -31,3 +31,6 @@ predictions <- predict(model, newdata = test_data)
 
 # Evaluate the model
 confusionMatrix(predictions, test_data$final_result)
+
+summary(model)
+print(model)
