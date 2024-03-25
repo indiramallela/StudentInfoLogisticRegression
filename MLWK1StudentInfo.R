@@ -2,8 +2,7 @@
 library(dplyr)
 library(caret)
 
-data <- read.csv("/Users/indiramallela/Dropbox/Northwood/ML/ML course data download weekk1/studentInfo2.csv") # Replace "your_dataset.csv" with the path to your dataset
-
+data <- read.csv("/Users/indiramallela/Dropbox/Northwood/ML/ML course data download weekk1/studentInfo2.csv") 
 # Data preprocessing
 # Convert categorical variables to factors
 data$code_module <- as.factor(data$code_module)
