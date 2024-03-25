@@ -4,7 +4,7 @@ library(caret)
 
 data <- read.csv("/Users/indiramallela/Dropbox/Northwood/ML/ML course data download weekk1/studentInfo2.csv") 
 # Data preprocessing
-# Convert categorical variables to factors
+# Converting categorical variables to factors
 data$code_module <- as.factor(data$code_module)
 data$code_presentation <- as.factor(data$code_presentation)
 data$gender <- as.factor(data$gender)
@@ -16,7 +16,7 @@ data$num_of_prev_attempts <- as.factor(data$num_of_prev_attempts)
 data$disability <- as.factor(data$disability)
 data$final_result <- as.factor(data$final_result)
 
-# Split the data into training and testing sets (80% training, 20% testing)
+# Splitting the data into training and testing sets (80% training, 20% testing)
 set.seed(123) # For reproducibility
 train_index <- createDataPartition(data$final_result, p = 0.8, list = FALSE)
 train_data <- data[train_index, ]
