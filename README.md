@@ -1,4 +1,4 @@
-# Indira Mallela's CV
+# Indira Mallela
 
 ## Profile Summary
 Motivated professional with over fifteen years of experience in developing data-driven Management Information tools in the areas of treasury, finance, project management, and in the banking and financial industry. Experienced in developing advanced analytical models (descriptive, predictive, and prescriptive) and deploying them in business. Assisted banks in implementing core banking solutions (FlexCube), built capacity of staff, worked on long-term/short-term assignments in multiple countries (India, Bhutan, Nepal, Afghanistan, Tajikistan, Ethiopia, Mozambique, and Kyrgyzstan).
